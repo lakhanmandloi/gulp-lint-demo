@@ -18,14 +18,7 @@
     "assets/**/*.js": "tslint",
     "**/*.html": "htmlhint --config htmlhint.conf",
     "assets/**/*.css": "stylelint",
-    "assets/**/*.scss": "stylelint --syntax=scss",
-    "*.{md,html}": [
-      "prettier --write"
-    ],
-    "*.{png,jpeg,jpg,gif,svg}": [
-      "imagemin-lint-staged",
-      "git add"
-    ]
+    "assets/**/*.scss": "stylelint --syntax=scss"
   },
   "dependencies": {},
   "devDependencies": {
